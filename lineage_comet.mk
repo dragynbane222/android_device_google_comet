@@ -13,6 +13,10 @@ DEVICE_PATH := device/google/comet
 VENDOR_PATH := vendor/google/comet
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 
+# Derpfest stuff
+DERPFEST_BUILD_TYPE := Official
+DERPFEST_BUILD_VARIANT := Beta
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 9 Pro Fold
