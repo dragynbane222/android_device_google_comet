@@ -34,3 +34,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
 
 -include vendor/lineage-priv/keys/keys.mk
+
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
