@@ -1,10 +1,14 @@
 [
   {
-    "repository": "android_device_google_zumapro",
-    "target_path": "device/google/zumapro"
+    "remote": "github",
+    "repository": "dragynbane222/android_device_google_zumapro",
+    "target_path": "device/google/zumapro",
+    "revision": "lineage-23.1"
   },
   {
-    "repository": "android_device_google_comet-kernels",
-    "target_path": "device/google/comet-kernels"
+    "remote=: "github",
+    "repository": "LineageOS/android_device_google_comet-kernels",
+    "target_path": "device/google/comet-kernels",
+    "revision":  \"lineage-23.1"
   }
 ]
