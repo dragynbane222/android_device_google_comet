@@ -7,6 +7,11 @@
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_foldable_book_telephony.mk)
 
+# Derpfest stuff
+DERPFEST_BUILD_TYPE := Official
+DERPFEST_BUILD_VARIANT := Beta
+
+
 # Inherit device configuration
 DEVICE_CODENAME := comet
 DEVICE_PATH := device/google/comet
@@ -28,3 +33,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
+
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
